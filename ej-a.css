@@ -1,0 +1,50 @@
+.cabecero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.head-menu li{
+    margin-right: 10px;
+}
+.head-form{
+    display: flex;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid lightgray;
+}
+.galeria div{
+    width: 25%;
+}
+.galeria img{
+    width: 100%;
+}
+.galeria p{
+    text-align:center
+}
+.menu-despegable{
+    position: fixed;
+    list-style: none;
+    top: 51px;
+    padding: 0;
+}
+
+
+.tabla{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tabla li{
+    list-style: none;
+}
+
+
+        
